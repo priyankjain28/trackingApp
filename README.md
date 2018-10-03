@@ -1,4 +1,4 @@
-# Parent Child Tracker - MVVM, Firebase, Google Map
+# Parent Child Tracker - MVVM, Firebase, Databinding, Google Map
 A prototype application for child safety that will work in dual modes - Parent and Child.
 Parent mode will display his child’s locations and Child mode will automatically track his geolocations and send them to associated parent .
 
