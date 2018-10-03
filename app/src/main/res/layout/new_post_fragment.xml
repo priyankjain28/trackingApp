@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <FrameLayout
+        android:id="@+id/composer_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="20dp"
+        android:background="@color/colorSecondary"
+        android:clickable="true"
+        android:orientation="vertical"
+        tools:ignore="Orientation">
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:gravity="center_horizontal|center_vertical"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/welcome"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Hey "
+                android:textSize="24dp"
+                android:textAlignment="center"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="15dp"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:id="@+id/textStatic"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/event_note"
+                android:textAlignment="center"
+                android:textSize="14dp"
+                android:textStyle="italic" />
+            <EditText
+                android:id="@+id/titleEvent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:hint="Give Some Title"
+                android:inputType=""
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:maxLength="25"
+                android:minHeight="48dp" />
+            <Spinner
+                android:id="@+id/eventSpinner"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+
+                />
+            <EditText
+                android:id="@+id/typeEvent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="10dp"
+                android:hint="Categories Type"
+                android:inputType=""
+                android:visibility="invisible"
+                android:maxLength="15"
+                android:minHeight="48dp" />
+
+            <Button
+                android:id="@+id/sendButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:enabled="false"
+                android:text="Submit" />
+        </LinearLayout>
+
+
+    </FrameLayout>
+</layout>
+

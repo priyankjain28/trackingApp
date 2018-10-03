@@ -1,0 +1,17 @@
+def versions = [
+        supportLib      : '27.1.1',
+]
+
+ext.versions = versions
+
+ext.pri = [
+        support    : [
+                appcompat       : 'com.android.support:appcompat-v7:' + versions.supportLib,
+                recyclerview    : 'com.android.support:recyclerview-v7:' + versions.supportLib,
+                cardview        : 'com.android.support:cardview-v7:' + versions.supportLib,
+                design          : 'com.android.support:design:' + versions.supportLib,
+                
+        ],
+
+
+]

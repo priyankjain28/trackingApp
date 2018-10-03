@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Family Tracker</string>
+    <string name="title_activity_children_tracking">ChildrenTracking</string>
+    <string name="title_activity_tracking">Map</string>
+    <string name="parent">Parent</string>
+    <string name="child">Child</string>
+    <string name="err_msg_name">Please enter name</string>
+    <string name="err_msg_email">Please enter valid email id(Username)</string>
+    <string name="err_msg_password">Please enter password</string>
+    <string name="event_note">\nYou are doing something...\nMake it special\n#BetterFromYesterday</string>
+    <string-array name="user_role">
+        <item>Select User Type</item>
+        <item>@string/parent</item>
+        <item>@string/child</item>
+    </string-array>
+</resources>
+

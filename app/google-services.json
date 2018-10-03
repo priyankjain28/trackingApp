@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "435838678423",
+    "firebase_url": "https://horatest-8710c.firebaseio.com",
+    "project_id": "horatest-8710c",
+    "storage_bucket": "horatest-8710c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:435838678423:android:a3e8b2c8d17a107e",
+        "android_client_info": {
+          "package_name": "com.hora.priyank.trackingapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "435838678423-iq2e57r2bb8ikq9r546jsg85jr8jfd77.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCx1PMx8rFxmagYnDXYHh07gradEvETbc4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
